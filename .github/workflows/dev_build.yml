@@ -15,4 +15,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build development Docker image
-        run: docker build -f services/web/Dockerfile.dev services/web
+        run: docker build -f services/web/Dockerfile services/web
