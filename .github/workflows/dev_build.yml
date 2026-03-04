@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+    
       - name: Build development Docker image
         run: docker build -f services/web/Dockerfile services/web
+        # builds image
