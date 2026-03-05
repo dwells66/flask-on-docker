@@ -6,7 +6,7 @@ This repository allows you to run a Flask app using Docker containers as well as
 
 ![Demonstration of webpage](./Flask-on-Docker-Animation.gif)
 
-Below are instructions for how utilize the services contained in the repository. Fork this repo, and clone it onto your server. From inside you can run these commands to build the docker containers. 
+Below are instructions for how to utilize the services contained in the repository. Fork this repo, and clone it onto your server. From inside you can run these commands to build the docker containers. 
 
 ```
 $ docker compose down -v
